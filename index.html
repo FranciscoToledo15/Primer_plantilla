@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi empresa</title>
+    <!DOCTYPE html>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="diseño.css">
+<body>
+    <div class="container">
+		<h1>Empresa de transporte </h1>
+		<form>
+			<div class="form-group">
+				<label for="matricula">Matrícula:</label>
+				<input type="text" class="form-control" id="matricula">
+			</div>
+			<div class="form-group">
+				<label for="capacidad">Capacidad de carga (kg):</label>
+				<input type="number" class="form-control" id="capacidad">
+			</div>
+			<div class="form-group">
+				<label for="consumo">Consumo de gasolina (gal/km):</label>
+				<input type="number" class="form-control" id="consumo">
+			</div>
+            <br>
+			<button type="submit" class="btn btn-primary">Agregar camión</button>
+		</form>
+		<hr>
+		<form>
+			<div class="form-group">
+				<label for="matricula_carga">Matrícula del camión:</label>
+				<input type="text" class="form-control" id="matricula_carga">
+			</div>
+			<div class="form-group">
+				<label for="carga">Carga a transportar (kg):</label>
+				<input type="number" class="form-control" id="carga">
+			</div>
+            <br>
+			<button type="submit" class="btn btn-primary">Cargar camión</button>
+		</form>
+		<hr>
+		<form>
+			<div class="form-group">
+				<label for="matricula_descarga">Matrícula del camión:</label>
+				<input type="text" class="form-control" id="matricula_descarga">
+			</div>
+            <br>
+			<button type="submit" class="btn btn-primary">Descargar camión</button>
+		</form>
+		<hr>
+		<form>
+			<div class="form-group">
+				<label for="carga_busqueda">Carga a transportar (kg):</label>
+				<input type="number" class="form-control" id="carga_busqueda">
+			</div>
+            <br>
+			<button type="submit" class="btn btn-primary">Buscar mejor camión</button>
+		</form>
+	</div>
+    
+</body>
+</html>

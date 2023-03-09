@@ -1,0 +1,52 @@
+body{
+    font-family: 'Lora', serif;
+}
+body{
+    width: 100vw;
+    height: 100vw;
+    padding: 60px;
+    background: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%)
+}
+
+.container h1 {
+    color: #121111;
+    font-weight: 500;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #941cc7;
+    display: inline-block;
+}
+
+.form-group {
+    font-size: 1em;
+    display: inline;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+form, .form-control, .btn{
+    width: 100%;
+    padding: 12px 20px;
+    font-weight: 400;
+    border: 1px solid rgb(211, 210, 210);
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: #575f63;
+    background: #f5f4f4;
+    border-radius: 20px;
+}
+
+.btn{
+    background: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+    border: none;
+    color: #ffff;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
